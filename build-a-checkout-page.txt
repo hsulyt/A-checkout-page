@@ -1,0 +1,39 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Checkout Page</title>
+</head>
+     <h1>Checkout</h1>
+     <section> 
+        <h2>Your Cart</h2>
+        <img src="https://cdn.freecodecamp.org/curriculum/labs/cube.jpg" alt="https://cdn.freecodecamp.org/curriculum/labs/cube.jpg"><img/>
+    
+     </section>
+     <section>
+        <h2>Payment Information</h2>
+    <form>
+      <label for="card-name">CardName<span aria-hidden="true">*</span></label>
+      <input id="card-name" name="card-name" type="text" required>
+      
+      <label for="card-number">Card Number<span aria-hidden="true">*</span></label>
+      <input id="card-number" name="card-number" type="text" aria-describedby="card-number-help" required>
+      
+      
+      
+      <p id="card-number-help">*</p>
+        <label for="submit">Submit*</label>
+        <input type="submit">
+        </form>
+        </section>
+<body>
+
+</body>
+
+</html>
+
+** end of index.html **
+
